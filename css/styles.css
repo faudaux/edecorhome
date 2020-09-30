@@ -266,7 +266,7 @@ a:hover {
   p, span {
     padding-top: 1%;
     line-height: 1.7;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 500;
   }
 
@@ -281,6 +281,6 @@ a:hover {
   }
 
   .nav-link {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
