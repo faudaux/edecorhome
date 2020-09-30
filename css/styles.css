@@ -221,7 +221,7 @@ a:hover {
 
 /* Mobile */
 
-@media (max-width:930px) {
+@media screen and (max-width:930px) {
   .encabezado-grande {
     font-size: 3rem;
     text-shadow: 1.5px 0.5px 1.5px #52616b;
@@ -252,7 +252,7 @@ a:hover {
 
 }
 
-@media (max-width:750px) {
+@media screen andscreen and (max-width:750px) {
   .img-productos {
     width: 40%;
     float: none;
