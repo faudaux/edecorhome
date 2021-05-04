@@ -16,8 +16,7 @@ const bodyParser = require("body-parser");
 
 const mailchimp = require("@mailchimp/mailchimp_marketing");
 
-mailchimp.setConfig({
-  apiKey: "c50c4a5d37a8d69997c9d484494673bf-us2",
+mailchimp.setConfig({,
   server: "us2",
 });
 
