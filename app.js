@@ -16,10 +16,6 @@ const bodyParser = require("body-parser");
 
 const mailchimp = require("@mailchimp/mailchimp_marketing");
 
-mailchimp.setConfig({,
-  server: "us2",
-});
-
 
 // Create static folder
 
@@ -45,7 +41,7 @@ app.post("/", function(req, res) {
   const correo = req.body.correo;
 
   async function run() {
-    const response = await mailchimp.lists.addListMember("eda3d6bcb9", {
+    const response = await mailchimp.lists.addListMember("", {
       email_address: correo,
       status: "subscribed",
       merge_fields: {
